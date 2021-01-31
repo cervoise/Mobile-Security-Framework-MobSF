@@ -29,7 +29,7 @@ def extract_urls_n_email(src, all_files, strings):
                 continue
             elif file.endswith(('.nib', '.ttf', '.svg', '.woff2',
                                 '.png', '.dylib', '.mobileprovision',
-                                'Assets.car')):
+                                'Assets.car', 'gif')):
                 continue
             else:
                 dat = ''
